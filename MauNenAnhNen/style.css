@@ -1,0 +1,32 @@
+
+/* Màu nền cho toàn bộ trang */
+body {
+    background-color: #eaf4f4;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Ảnh nền cho khối nội dung */
+.content {
+    background-color: #ffffff;
+    background-image: url("https://images.unsplash.com/photo-1470770841072-f978cf4d019e");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 250px;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 40px 20px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+    border-radius: 12px;
+}
